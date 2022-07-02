@@ -2,7 +2,7 @@ export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
       <h1>Welcome to Remix</h1>
-      <ul>
+      <ul className="list-none">
         <li>
           <a
             target="_blank"
@@ -26,7 +26,10 @@ export default function Index() {
             Remix Docs
           </a>
         </li>
+        <li className="">
+          <h1 className="text-3xl font-bold underline">Got tailwind now mf</h1>
+        </li>
       </ul>
     </div>
-  );
+  )
 }
