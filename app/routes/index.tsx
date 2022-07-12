@@ -6,7 +6,10 @@ export default function Index() {
       <h1>Artists</h1>
       <ul>
         <li>
-          <Link to="/artists/barcode">Barcode</Link>
+          <Link to="/artist/barcode">Barcode</Link>
+        </li>
+        <li>
+          <Link to="/artist/dmonk">D'Monk</Link>
         </li>
       </ul>
     </article>

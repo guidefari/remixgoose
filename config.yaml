@@ -1,0 +1,4 @@
+module:
+  mounts:
+    - source: app/routes
+      target: content
