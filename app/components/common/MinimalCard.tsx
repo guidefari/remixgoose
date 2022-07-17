@@ -15,11 +15,11 @@ export const MinimalCard: React.FC<Props> = ({
   slug,
 }) => {
   return (
-    <div className="sm:flex lg:items-start group">
+    <div className="flex-shrink-0 sm:flex lg:items-start group">
       <div className="flex-shrink-0 mb-4 sm:mb-0 sm:mr-4">
         <Link to={slug as string}>
           <img
-            className="object-cover w-full rounded-md sm:h-32 sm:w-32"
+            className="object-cover max-w-xs rounded-md aspect-square"
             src={imageUrl}
             alt={title}
           />

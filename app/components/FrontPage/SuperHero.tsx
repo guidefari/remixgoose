@@ -9,7 +9,7 @@ export const SuperHero = () => {
             <h1 className="mb-0 text-3xl font-bold leading-none text-right md:text-6xl lg:text-9xl">
               goosebumps.
               <br className="hidden lg:block" />
-              fm
+              <span style={{ color: "#9BFD9E" }}>fm</span>
             </h1>
           </div>
           <div className="flex flex-col mt-10 sm:flex-row">
