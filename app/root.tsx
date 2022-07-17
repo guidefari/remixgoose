@@ -21,7 +21,7 @@ export function links() {
 
 export default function App() {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en">
       <head>
         <Meta />
         <Links />
