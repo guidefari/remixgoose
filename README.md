@@ -6,8 +6,7 @@
 
 
 # todo
+- [x] Figure out default layout for blog post
+- [ ] [Dynamic route for posts](https://remix.run/docs/en/v1/tutorials/blog#dynamic-route-params)
 
-
-- Figure out default layout for blog post
-- [Dynamic route for posts](https://remix.run/docs/en/v1/tutorials/blog#dynamic-route-params)
 

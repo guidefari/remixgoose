@@ -10,3 +10,7 @@ node_modules
 /api/index.js
 /api/index.js.map
 .hugo_build.lock
+
+# this is a tailwind generated file, servers generate a new one on
+# each build anyway. no need to clog up every commit
+/app/styles/app.css
