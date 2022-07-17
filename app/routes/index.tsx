@@ -1,17 +1,19 @@
-import { Link } from "@remix-run/react"
+import { useLoaderData } from "@remix-run/react"
+import { FeaturedArtists } from "~/components/FrontPage/FeaturedArtists"
+import { SuperHero } from "~/components/FrontPage/SuperHero"
+import { getMdxDirFrontmatter } from "~/utils/mdx.server"
+
+export const loader = () => {
+  return getMdxDirFrontmatter("artist")
+}
 
 export default function Index() {
+  const artists = useLoaderData()
+
   return (
-    <article className="prose-xl">
-      <h1>Artists</h1>
-      <ul>
-        <li>
-          <Link to="/artist/barcode">Barcode</Link>
-        </li>
-        <li>
-          <Link to="/artist/dmonk">D'Monk</Link>
-        </li>
-      </ul>
-    </article>
+    <>
+      <SuperHero />
+      <FeaturedArtists artists={artists} />
+    </>
   )
 }

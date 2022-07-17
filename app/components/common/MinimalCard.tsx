@@ -30,12 +30,12 @@ export const MinimalCard: React.FC<Props> = ({
         <p className="mt-3 text-lg font-medium leading-6">
           <Link
             to={slug as string}
-            className="text-xl text-gray-800 hover:text-gray-500"
+            className="text-xl text-indigo-900 hover:text-indigo-700"
           >
             {title || ""}
           </Link>
         </p>
-        <p className="mt-2 leading-normal text">{blurb || ""}</p>
+        <p className="mt-2 leading-normal text-blue-100 text">{blurb || ""}</p>
       </div>
     </div>
   )

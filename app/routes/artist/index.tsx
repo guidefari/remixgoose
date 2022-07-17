@@ -17,7 +17,7 @@ function Artists() {
         title="Curated Artists"
         description="The Home of all artists I think are worth giving a look for one reason or another. Each artist likely has a story behind how they got here, feel free to reach out and ask me why"
       />
-      <section className="grid grid-cols-1 gap-12 lg:px-16 lg:gap-24 lg:grid-cols-2">
+      <section className="grid grid-cols-1 gap-12 lg:gap-24 lg:grid-cols-3">
         {artists.map(artist => (
           <MinimalCard
             blurb={artist.meta.description}
