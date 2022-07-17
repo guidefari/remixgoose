@@ -5,7 +5,8 @@ meta:
 date: 2022-07-12T07:42:08+02:00
 genres: []
 artists: []
-imageUrl: "https://images-here-hugo.vercel.app/api/og-image?title="
+imageUrl: "https://f4.bcbits.com/img/0019674790_10.jpg"
+
 ---
 
 ## yo it's DMonk

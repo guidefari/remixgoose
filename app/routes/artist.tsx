@@ -1,8 +1,8 @@
 import { Outlet } from "@remix-run/react"
 
-export default function Posts() {
+export default function Artist() {
   return (
-    <div className="prose lg:prose-xl min-h-screen bg-green-700">
+    <div className="prose min-w-screen lg:prose-xl">
       <Outlet />
     </div>
   )

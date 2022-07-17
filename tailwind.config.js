@@ -2,7 +2,9 @@
 module.exports = {
   content: ["./app/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
-    extend: {},
+    extend: {
+      minWidth: { screen: "100vw" },
+    },
   },
   plugins: [require("@tailwindcss/typography")],
 }
