@@ -33,8 +33,11 @@ export const SuperHero = () => {
                   Guide Fari
                 </h2>
                 <div className="w-12 h-1 mt-2 mb-4 bg-indigo-500 rounded" />
-                <p className="text-base">
-                  I love connecting people to new music.
+                <p className="text-base text-left">
+                  I love connecting people to new music. One of my favourite
+                  ways to spend time is to chat music - say hello, let me know
+                  what music you've been enjoying. I may have similar stuff to
+                  share 🙂
                 </p>
               </div>
             </div>
